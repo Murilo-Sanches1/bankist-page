@@ -48,34 +48,33 @@
 // console.log(logo.setAttribute('dev', 'murilo'));
 // console.log(logo.dataset);
 
+// + selecionando filhos
+// const h1 = document.querySelector('h1')!;
+// * querySelector atribuído a um elemento seleciona somente os filhos desse elemento
+// console.log(h1.querySelectorAll('.highlight'));
+// console.log(h1.childNodes); // * filhos diretos de todos os tipos de Node
 
-  // + selecionando filhos
-  // const h1 = document.querySelector('h1')!;
-  // * querySelector atribuído a um elemento seleciona somente os filhos desse elemento
-  // console.log(h1.querySelectorAll('.highlight'));
-  // console.log(h1.childNodes); // * filhos diretos de todos os tipos de Node
+// * elementos diretos filhos do h1 - retorna um HTMLColletion
+// console.log(h1.children);
+// (h1!.firstElementChild as HTMLElement).style.color = 'white';
+// (h1!.lastElementChild as HTMLElement).style.color = 'black';
 
-  // * elementos diretos filhos do h1 - retorna um HTMLColletion
-  // console.log(h1.children);
-  // (h1!.firstElementChild as HTMLElement).style.color = 'white';
-  // (h1!.lastElementChild as HTMLElement).style.color = 'black';
-
-  // + selecionando pais
-  // console.log(h1.parentNode);
-  // console.log(h1.parentElement);
-  // * digamos que existam diversos elementos pais com a mesma classe na DOM, mas estamos buscando o pai
-  // * mais próximo do h1
-  // console.log(h1.closest('.header'));
-  // * retorna o elemento h1 mais próximo do h1, ou seja, ele mesmo
-  // console.log(h1.closest('h1'));
-  // h1.closest('h1')?.style.backgroundColor = 'black';
-  // * seleciona somente o irmão da frente ou o de trás, não o irmão com mais de uma "casa"
-  // console.log(h1.previousElementSibling);
-  // console.log(h1.nextElementSibling);
-  // console.log(h1.previousSibling);
-  // console.log(h1.nextSibling);
-  // * celecionar todos os irmãos acessando primeiro o elemento pai
-  // console.log(h1.parentElement?.children);
-  // [...h1.parentElement?.children].forEach((el) =>
-  //   el !== h1 ? (el.style.transform = 'scale(0.5') : ''
-  // );
+// + selecionando pais
+// console.log(h1.parentNode);
+// console.log(h1.parentElement);
+// * digamos que existam diversos elementos pais com a mesma classe na DOM, mas estamos buscando o pai
+// * mais próximo do h1
+// console.log(h1.closest('.header'));
+// * retorna o elemento h1 mais próximo do h1, ou seja, ele mesmo
+// console.log(h1.closest('h1'));
+// h1.closest('h1')?.style.backgroundColor = 'black';
+// * seleciona somente o irmão da frente ou o de trás, não o irmão com mais de uma "casa"
+// console.log(h1.previousElementSibling);
+// console.log(h1.nextElementSibling);
+// console.log(h1.previousSibling);
+// console.log(h1.nextSibling);
+// * celecionar todos os irmãos acessando primeiro o elemento pai
+// console.log(h1.parentElement?.children);
+// [...h1.parentElement?.children].forEach((el) =>
+//   el !== h1 ? (el.style.transform = 'scale(0.5') : ''
+// );
