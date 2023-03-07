@@ -78,7 +78,10 @@ tsc.cmd -w
 ```
 
 ## Screenshots
-!["jogo em andamento... screenshot"](.github/bankist1.png)
-!["jogo em andamento... screenshot"](.github/bankist2.png)
-!["jogo em andamento... screenshot"](.github/bankist3.png)
-!["jogo em andamento... screenshot"](.github/bankist4.png)
+!["hero"](.github/bankistPage1.png)
+!["características"](.github/bankistPage2.png)
+!["características"](.github/bankistPage3.png)
+!["operações"](.github/bankistPage4.png)
+!["testemunhos"](.github/bankistPage5.png)
+!["footer"](.github/bankistPage6.png)
+!["popup para criar a conta"](.github/bankistPage7.png)
