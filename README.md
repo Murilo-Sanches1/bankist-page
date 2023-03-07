@@ -1,4 +1,4 @@
-# DOM-Bankist-LandingPage
+# Bankist Landing Page
 
 ### Sumário
 * [Conteúdos](#conteúdos)  
