@@ -9,7 +9,7 @@
 **Bankist**, o Banco que Simplifica. Projeto sem nenhum intuito comercial/sério, apenas para manipular a DOM e aperfeiçoar os conhecimentos de JavaScript/TypeScript. 
 Programado de forma imperativa. 
 
-Pprojeto programado sem uso de nenhum framework, conta com diversos componentes interativos, por exemplo: Smooth Scrolling, Tab Component, Sticky Navigation, Mostrando elementos durante o scroll, Lazy Loading e um Slider :). Foi ótimo para aprender conceitos avançados sobre Web Development, como:
+Projeto programado sem uso de nenhum framework, conta com diversos componentes interativos, por exemplo: Smooth Scrolling, Tab Component, Sticky Navigation, Mostrando elementos durante o scroll, Lazy Loading e um Slider :). Foi ótimo para aprender conceitos avançados sobre Web Development, como:
 * Diferença sútil entre os retornos dos métodos de seleção, para citar alguns:
   * `.querySelector<T>()` **(T | null)**, 
   * `.querySelectorAll<T>` **(NodeListOf&lt;T>)**,
